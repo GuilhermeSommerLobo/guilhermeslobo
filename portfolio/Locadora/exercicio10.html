@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 10</title>
+</head>
+
+	<!--Javascript-->
+	<script type="text/javascript" src="javascriptexer10.js"></script>
+
+<body>
+
+<!--Tabela-->
+<tr id="inserirTabela">
+	
+</tr>
+
+	<!--Dados-->
+	<div class="container mb-5">
+		<form name="cadastrar" onsubmit="event.preventDefaut()">
+
+	<div class="mb-3 col">
+		<label for="nomBicho" class="form-label">Nome do Animal:</label>
+		<input type="text" id="nomBicho" class="form-control" name="Animal">
+	</div>
+
+	<div class="mb-3 col">
+		<label for="nomDono" class="form-label">Nome do Dono:</label>
+		<input type="text" id="nomDono" class="form-control" name="Dono">
+	</div>
+
+	<div class="mb-3 col">
+		<label for="telCont" class="form-label">Telefone para contato:</label>
+		<input type="text" id="telCont" class="form-control" placeholder="00000-0000" name="Contato">
+	</div>
+
+	<div class="mb-3 col">
+		<label for="diaAgen" class="form-label">Dia do Agendamento:</label>
+		<input type="date" id="diaAgen" class="form-control" name="Agenda">
+	</div>
+
+	<!-- Botão Enviar -->
+	<div class="col-auto">
+		<button type="submit" class="btn btn-primary mb-3" onclick="validaForm()">Cadastrar</button>
+	</div>
+
+</body>
+</html>

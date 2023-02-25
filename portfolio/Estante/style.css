@@ -1,0 +1,80 @@
+<style type="text/css">
+
+		.tituloL {
+			background-color: sienna;
+			color: black;
+			text-align: center;
+		}
+
+		#l1, #l2, #l3, #l4, #l5{
+			background-color: wheat;
+		}
+
+		body {
+			width: 85%;
+			margin: auto;
+		}
+
+		section{
+			padding-left: 256px;
+			padding-right: 256px;
+			padding-bottom: 64px;
+			padding-top: 64px;
+		}
+
+		table {
+			width: 100%;
+			border-width: 3px;
+			border-color: black;
+		}
+
+		td {
+			background-color: sienna;
+			border-width: 3px;
+			border-color: black;
+			text-align: center;
+			padding: 8px;
+		}
+		tr {
+			background-color: wheat;
+			border-width: 3px;
+			border-color: black;
+			text-align: center;
+			padding: 8px;
+		}
+
+		p {
+			text-align: justify;
+			text-indent: 50px;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		h3 {
+			text-align: left;
+			margin: auto;
+		}
+
+		h4 {
+			text-align: center;
+		}
+
+		a {
+			color: sienna;
+		}
+
+		img {
+			width: 300px;
+			display: block;
+			margin: auto;
+			border-radius: 40px;
+		}
+
+
+		span {
+			color: sienna;
+		}
+
+	</style>
